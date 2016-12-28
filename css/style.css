@@ -1,11 +1,64 @@
-/*
-    Theme Name: Butterfly
-    Theme URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
 
 /* CSS Document */
+
+.banners {
+    padding: 1em 1em 0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.nav-tabs{
+	background-color: #49b5e7;
+}
+
+li a{
+	color: #fff;
+}
+
+a:hover{
+	background-color: #fff;
+	color: black;
+}
+
+a:focus{
+	color: black;
+}
+
+@media only screen and (min-width: 960px){}
+.banners>div:nth-of-type(1) {
+    width: 40.5%;
+    margin-right: 1em;
+}
+
+@media only screen and (min-width: 960px){}
+.banners>div:nth-of-type(2) {
+    width: 22.5%;
+    margin-right: 1em;
+}
+
+@media only screen and (min-width: 960px){}
+.banners>div:nth-of-type(3) {
+    width: 31.5%;
+}
+
+@media only screen and (min-width: 960px){}
+.banners>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media only screen and (min-width: 960px){
+.banners>div div {
+    width: 100%;
+    display: block;
+    position: relative;
+    background: #fafafa;
+    margin-bottom: 1.1em;
+    background-size: contain!important;
+}
 
 /* Float Elements 
 ---------------------------------*/
